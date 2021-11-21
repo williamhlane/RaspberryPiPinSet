@@ -2,6 +2,7 @@
 #make sure Python3 3 is installed as well as pip with sudo apt-get install python3 python3-pip
 #make sure RPi.GPIO is install with sudo pip3 install --upgrade RPi.GPIO
 #Written by William Harrison Lane III harrisonswd.com
+#This was made for Raspberry Pi 4 model B, it should owrk on all but this is made to only accept 0-26 as values for GPIO pins
 import RPi.GPIO as GPIO
 import sys
 if(len(sys.argv) == 1 or len(sys.argv) == 2 or len(sys.argv) > 3):
